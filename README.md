@@ -1,23 +1,15 @@
 # Google Cloud Data Analytics Project
 
-This repository contains code and configuration files for Google Cloud Data Analytics Project.This project demonstrates the integration of several GCP services to create an efficient and automated data pipeline for sales data. We'll show you how to:
 
+This project showcases a comprehensive data pipeline for sales data, leveraging the power of Google Cloud Platform (GCP) services. The pipeline effectively automates the process of ingesting, processing, and visualizing sales data, providing valuable insights for decision-making.
 
-Refer youtube Video for this project
- [![YouTube](https://img.shields.io/badge/YouTube-Video-red)](https://youtu.be/_CQCOusfGrs)
+Key Components and Functionality
 
-
-![image](https://github.com/vishal-bulbule/sales-data-pipeline-project/assets/143475073/530f2c9e-945c-414c-8c85-5b489e92360e)
-
-
-
-## Overview
-
-1. **Web Portal**: Built with Python Flask to allow users to upload sales data files.
-2. **Storage**: Uploaded files are stored in a GCS bucket.
-3. **Cloud Function**: Automatically triggered when a file is uploaded to the GCS bucket, extracts data from the file, and loads it into BigQuery.
-4. **ETL Process**: Extract, Transform, Load process implemented to handle data from raw upload to processed state.
-5. **Reporting**: Summary views and dashboards in Looker Studio for key metrics, with filtering and drill-down capabilities.
+Web Portal (Flask): A user-friendly web application built with Python Flask allows users to upload sales data files in CSV or Excel format.
+Google Cloud Storage (GCS): Uploaded files are securely stored in a GCS bucket, ensuring data durability and accessibility.
+Google Cloud Function: A serverless function triggered by file uploads processes the data, performs necessary transformations, and loads it into BigQuery.
+BigQuery: A fully managed, NoSQL data warehouse that stores and analyzes the processed sales data efficiently.
+Looker Studio: A powerful data visualization tool that creates interactive dashboards and reports based on the data in BigQuery, providing actionable insights.
 
 
 
